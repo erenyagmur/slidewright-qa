@@ -22,6 +22,18 @@
 *.pdb
 *.mdb
 
+# Secrets: never commit. CI credentials go in GitHub Actions secrets (see CLAUDE.md).
+*.ulf
+*.alf
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+
 # Test / perf output (uploaded as CI artifacts instead)
 /TestResults/
 /PerfReports/
