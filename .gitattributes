@@ -1,0 +1,18 @@
+# Normalise line endings in the repo (LF), so Windows and Linux CI runners see identical files.
+* text=auto
+
+# Unity YAML assets: treat as text, but never auto-merge them line by line.
+*.unity   text eol=lf linguist-generated
+*.prefab  text eol=lf linguist-generated
+*.asset   text eol=lf linguist-generated
+*.meta    text eol=lf linguist-generated
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.psd binary
+*.ttf binary
+*.otf binary
+*.wav binary
+*.mp3 binary
+*.ogg binary

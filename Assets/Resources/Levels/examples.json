@@ -1,0 +1,40 @@
+{
+  "name": "Examples",
+  "levels": [
+    {
+      "name": "Example 1 - First Steps",
+      "optimalMoves": 2,
+      "grid": { "width": 6, "height": 6 },
+      "exit": { "row": 2, "side": "right" },
+      "vehicles": [
+        { "id": "R", "x": 0, "y": 2, "length": 2, "orientation": "H" },
+        { "id": "A", "x": 3, "y": 1, "length": 2, "orientation": "V" }
+      ]
+    },
+    {
+      "name": "Example 2 - Truck Stop",
+      "optimalMoves": 3,
+      "grid": { "width": 6, "height": 6 },
+      "exit": { "row": 2, "side": "right" },
+      "vehicles": [
+        { "id": "R", "x": 1, "y": 2, "length": 2, "orientation": "H" },
+        { "id": "T", "x": 4, "y": 0, "length": 3, "orientation": "V" },
+        { "id": "B", "x": 3, "y": 5, "length": 2, "orientation": "H" }
+      ]
+    },
+    {
+      "name": "Example 3 - Chain Reaction",
+      "optimalMoves": 5,
+      "grid": { "width": 6, "height": 6 },
+      "exit": { "row": 2, "side": "right" },
+      "vehicles": [
+        { "id": "R", "x": 0, "y": 2, "length": 2, "orientation": "H" },
+        { "id": "E", "x": 0, "y": 0, "length": 3, "orientation": "H" },
+        { "id": "C", "x": 2, "y": 1, "length": 2, "orientation": "V" },
+        { "id": "F", "x": 1, "y": 4, "length": 2, "orientation": "H" },
+        { "id": "D", "x": 5, "y": 1, "length": 3, "orientation": "V" },
+        { "id": "H", "x": 4, "y": 5, "length": 2, "orientation": "H" }
+      ]
+    }
+  ]
+}
